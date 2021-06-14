@@ -1,0 +1,22 @@
+{
+  "name": "example-basic",
+  "version": "1.0.0",
+  "description": "basic example how to run Cypress tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^7.3.0",
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "cypress-file-upload": "^5.0.2",
+	"jssha": "^3.2.0",
+    "totp-generator": "0.0.9"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
